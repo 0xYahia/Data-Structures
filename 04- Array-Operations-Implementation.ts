@@ -26,3 +26,15 @@
 
 //! 5) Outputs:
 //      - Nothing
+
+
+function resizeArray(source:[number, number]){
+  if( source == null) return
+
+  let newArray:[number, number, number, number] = [...source,0,0]
+  console.log(newArray)
+}
+
+let arr:[number, number] = [2,5]
+
+resizeArray(arr)
