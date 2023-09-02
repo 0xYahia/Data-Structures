@@ -111,8 +111,8 @@ function getAt<T>(source:T[], index:number):T | null{
 //   public T GetAt<T>(T[] source, int index, int SizeOf)
 //   {
 //     if(index < 0) return default(T);
-//     ref byte zeroAdrr = ref MemoryMarshal.GetArrayDataReference((Array)source);
-//     ref byte indexRef = ref Unsafe.Add(ref zeroAdrr, index * SizeOf);
+//     ref byte zeroAddr = ref MemoryMarshal.GetArrayDataReference((Array)source);
+//     ref byte indexRef = ref Unsafe.Add(ref zeroAddr, index * SizeOf);
 //     ref T item = ref Unsafe.As<byte, T>(ref indexRef);
 //     return item;
 //   }
