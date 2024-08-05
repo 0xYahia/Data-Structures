@@ -8,7 +8,7 @@
 ##### We use order this numbers to represent the data in memory
 
 ##### Units of information [**data**]
--  Smallest Unit of Data => Bit [0 or 1]
+-  Smallest Unit of Data &rarr; Bit [0 or 1]
 -  8 bits &rarr; 1 byte
 -  1024 bytes &rarr; 1 kilobyte
 -  1024 kilobytes &rarr; 1 megabyte
@@ -45,7 +45,7 @@
 - 00000101
 <hr>
 
-#### To covert binary number to decimal number
+#### **To covert binary number to decimal number**
 **Example &rarr; 1011110000**
 **we need to multiply each bit with 2 to the power of it's index from right to left and start from 0 and add all the results**
 &rarr; 0 * 2^0 = 0
@@ -58,7 +58,7 @@
 &rarr; 1 * 2^7 = 128
 &rarr; 1 * 2^8 = 256
 &rarr; 0 * 2^9 = 0
-&rarr; 1 * 2^10 = 1024
+&rarr; 1 * 2^10 = **1024**
 #### 0 + 0 + 0 + 0 + 16 + 32 + 64 + 128 + 256 + 0 + 1024 = 1520
 <hr>
 
@@ -69,5 +69,5 @@
 &rarr; From 0 to 255 for each color [Red, Green, Blue] &rarr; 0 &rarr; 000000, 255 &rarr; 111111
 <hr>
 
-#### To represent images in binary numbers we use pixels and each pixel has 3 colors [Red, Green, Blue] and each color has 8 bits
+#### To represent images in binary numbers we use pixels and each pixel via color [Red, Green, Blue] and each color has 8 bits
 &rarr; 8 bits for Red + 8 bits for Green + 8 bits for Blue = 24 bits for each pixel
